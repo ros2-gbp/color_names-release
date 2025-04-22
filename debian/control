@@ -1,0 +1,12 @@
+Source: ros-kilted-color-names
+Section: misc
+Priority: optional
+Maintainer: masaya <ms.kataoka@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-kilted-ament-cmake, ros-kilted-ament-lint-auto <!nocheck>, ros-kilted-ouxt-lint-common <!nocheck>, ros-kilted-rclcpp, ros-kilted-rviz2, ros-kilted-std-msgs, ros-kilted-visualization-msgs, ros-kilted-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-kilted-color-names
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-kilted-rclcpp, ros-kilted-rviz2, ros-kilted-std-msgs, ros-kilted-visualization-msgs, ros-kilted-ros-workspace
+Description: The color_names package
