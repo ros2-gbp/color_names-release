@@ -1,0 +1,12 @@
+Source: ros-lyrical-color-names
+Section: misc
+Priority: optional
+Maintainer: masaya <ms.kataoka@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-lyrical-ament-cmake, ros-lyrical-ament-lint-auto <!nocheck>, ros-lyrical-ouxt-lint-common <!nocheck>, ros-lyrical-rclcpp, ros-lyrical-rviz2, ros-lyrical-std-msgs, ros-lyrical-visualization-msgs, ros-lyrical-ros-workspace
+Homepage: https://index.ros.org/p/color_names/#lyrical
+Standards-Version: 3.9.2
+
+Package: ros-lyrical-color-names
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-lyrical-rclcpp, ros-lyrical-rviz2, ros-lyrical-std-msgs, ros-lyrical-visualization-msgs, ros-lyrical-ros-workspace
+Description: The color_names package
